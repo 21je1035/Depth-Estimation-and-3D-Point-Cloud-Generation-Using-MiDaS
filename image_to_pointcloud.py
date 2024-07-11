@@ -31,7 +31,23 @@ Q = np.array(([1, 0, 0, -160],
               [0, 1, 0, -120],
               [0, 0, 0, 350],
               [0, 0, 1/90, 0]), dtype=np.float32)
-
+#if you have camera parameters:
+# for example:
+# def create_q_matrix(f, cx, cy, baseline, doffs):
+#     Q = np.array([
+#         [1, 0, 0, -cx],
+#         [0, 1, 0, -cy],
+#         [0, 0, 0, f],
+#         [0, 0, -1/baseline, (doffs - cx)/baseline]
+#     ])
+#     return Q
+# # Camera parameters
+# f = 3997.684
+# cx = 1176.728
+# cy = 1011.728
+# baseline = 193.001
+# doffs = 131.111
+# Q = create_q_matrix(f, cx, cy, baseline, doffs)
 
 
 # Convert the image to RGB
