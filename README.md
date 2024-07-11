@@ -1,3 +1,5 @@
+*Sample Image*
+![sampleimg](https://github.com/21je1035/Depth-Estimation-and-3D-Point-Cloud-Generation-Using-MiDaS/assets/120236581/b4dab821-b6a3-431a-9592-1f2df27bdf04)
 # Description
 This project leverages the MiDaS model to perform depth estimation from images and generate corresponding 3D point clouds. The depth information is visualized using Open3D and can be post-processed with various features available in Open3D.
 
